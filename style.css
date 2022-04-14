@@ -6,6 +6,10 @@
     font-size: 50px;
 }
 
+.iblock {
+    display: inline-block;
+}
+
 .pIndex{
     text-align: center;
     color: white;
@@ -16,8 +20,16 @@
     color: white;
 }
 
-body{
-    background-color: black;
+.body{
+    background: black url("./images/server/ib-server3.gif") no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.body2{
+    background-repeat: no-repeat;
 }
 
 .infoLink{
@@ -29,11 +41,6 @@ body{
 .dshLink{
     color: white;
     float: right;
-    cursor: crosshair;
-}
-.copyright{
-    color: white;
-    text-align: center;
     cursor: crosshair;
 }
 
@@ -73,11 +80,14 @@ body{
 
 *{
     font-family: 'Raleway', sans-serif;
+    color: white;
+    stroke: black;
 }
 .footer {
     bottom: 0;
     position: fixed;
     text-align: center;
+    display: inline-block;
 }
 
 .authorImage {
@@ -85,3 +95,10 @@ body{
     padding-left: 3vh;
     width: 100px;
 }
+
+.footer {
+    position: fixed;
+    padding-left: 87vh;
+}
+
+
