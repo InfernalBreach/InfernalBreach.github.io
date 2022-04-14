@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.headIndex{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.pIndex{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.pageInfo{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.infoLink{
+    color: white;
+    float: right;
+    cursor: crosshair;
+}
+
+.dshLink{
+    color: white;
+    float: right;
+    cursor: crosshair;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    cursor: crosshair;
+}
+
+.infoP1{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.infoP2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.infoP3-staff{
+    color:white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.staffInfo{
+    color: white;
+    padding-left: 3vh;
+}
+
+.parent {
+    margin: 1rem;
+    padding: 0 2rem;
+    text-align: center;
+}
+.child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.footer {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+.authorImage {
+    position: relative;
+    padding-left: 3vh;
+    width: 100px;
+}
