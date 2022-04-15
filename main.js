@@ -7,8 +7,8 @@ window.addEventListener('DOMContentLoaded', () => {
     window.onload = function () {
         let i = 0;
         function timer () {
-            const images = ['./images/server/ib-server1.png', './images/server/ib-server2.png']
-            let randomImg = images[randomInt(0,1)]
+            const images = ['./images/server/ib-server1.png', './images/server/ib-server2.png', './images/server/ib-server3.png']
+            let randomImg = images[randomInt(0,1,2)]
             document.body.style.backgroundImage = `url(${randomImg})`
             i++;
             setTimeout(timer, 5000);
